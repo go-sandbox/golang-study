@@ -1,0 +1,2 @@
+2019/04/02 21:12:30 log.go:23: Exit open fugahoge: no such file or directory
+2019/04/02 21:13:22 /Users/kento/code/golang/src/golang-study/sec4/ch29/log.go:23: Exit open fugahoge: no such file or directory
