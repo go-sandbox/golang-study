@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:91e4fe662be2ef824d6f88757f5fdcd42c856e96d0881a22f4bcfbf84aa3d481"
+  name = "github.com/markcheno/go-talib"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "cd53a9264d70bedcff891f59bf153275f524c100"
+
+[[projects]]
   digest = "1:d37c61a335d13bc49b3f90e9e13c8686e4548839b69c58549e727afb2245c454"
   name = "gopkg.in/ini.v1"
   packages = ["."]
@@ -12,6 +20,9 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["gopkg.in/ini.v1"]
+  input-imports = [
+    "github.com/markcheno/go-talib",
+    "gopkg.in/ini.v1",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
